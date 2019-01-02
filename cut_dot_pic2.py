@@ -5,9 +5,9 @@ import cv2
 import numpy as np
 from copy import deepcopy
 
-the_image_path = "/home/omnisky/PycharmProjects/yolo_snip/DOTA/PNGimages"
-the_new_data_path = "/home/omnisky/PycharmProjects/yolo_snip/DOTA/new_PNGimage"
-train_file = "/home/omnisky/PycharmProjects/yolo_snip/DOTA/train.txt"
+the_image_path = "DOTA/PNGimages"
+the_new_data_path = "DOTA/new_PNGimage"
+train_file = "DOTA/train.txt"
 
 if not os.path.exists(the_new_data_path):
     os.mkdir(the_new_data_path)
